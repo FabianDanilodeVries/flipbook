@@ -1,0 +1,48 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Arial';
+}
+
+/*navigatie*/
+
+nav{
+	background-color: #343434;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 80px;
+}
+nav ul{
+	position: absolute;
+	right: 7.5%;
+	top: -18px;
+}
+nav li{
+	display: inline-block;
+}
+nav li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 30px;
+}
+nav li a:hover{
+	background-color: white;
+	color: black;
+}
+
+/*footer*/
+footer{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #343434;
+}
+footer p{
+	text-align: center;
+	color: white;
+}
